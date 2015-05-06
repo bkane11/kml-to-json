@@ -1,0 +1,26 @@
+{
+  "name": "kml-to-json",
+  "version": "0.0.0",
+  "description": "utility to convert kml(z) to geojson from command line or as module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bkane11/kml-to-json"
+  },
+  "keywords": [
+    "kml",
+    "kmz",
+    "geojson",
+    "node",
+    "convert"
+  ],
+  "author": "Ben Kane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkane11/kml-to-json/issues"
+  },
+  "homepage": "https://github.com/bkane11/kml-to-json"
+}
