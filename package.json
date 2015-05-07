@@ -4,7 +4,7 @@
   "description": "utility to convert kml(z) to geojson from command line or as module",
   "main": "index.js",
   "scripts": {
-    "test": "test index.js"
+    "test": "test kml-to-json.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/bkane11/kml-to-json/issues"
   },
-  "homepage": "https://github.com/bkane11/kml-to-json"
+  "homepage": "https://github.com/bkane11/kml-to-json",
+  "dependencies": {
+    "argparse": "^1.0.2",
+    "jsdom-no-contextify": "^3.1.0",
+    "jsonfile": "^2.0.0",
+    "togeojson": "git+https://github.com/bkane11/togeojson.git",
+    "underscore": "^1.8.3",
+    "unzip": "^0.1.11",
+    "xml2js": "^0.4.8"
+  }
 }
