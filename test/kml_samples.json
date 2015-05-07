@@ -28,20 +28,7 @@
       },
       "properties": {
         "name": "Floating placemark",
-        "styleUrl": "#downArrowIcon",
-        "styleHash": "-5d9505f1",
-        "description": "Floats a defined distance above the ground.",
-        "icon": {
-          "url": "http://maps.google.com/mapfiles/kml/pal4/icon28.png",
-          "scale": "",
-          "color": "",
-          "hotspot": {
-            "x": null,
-            "y": null,
-            "xunits": null,
-            "yunits": null
-          }
-        }
+        "description": "Floats a defined distance above the ground."
       }
     },
     {
@@ -56,21 +43,7 @@
       },
       "properties": {
         "name": "Extruded placemark",
-        "styleUrl": "#globeIcon",
-        "styleHash": "76a6c280",
-        "description": "Tethered to the ground by a customizable\n          \"tail\"",
-        "icon": {
-          "url": "http://maps.google.com/mapfiles/kml/pal3/icon19.png",
-          "scale": "",
-          "color": "",
-          "hotspot": {
-            "x": null,
-            "y": null,
-            "xunits": null,
-            "yunits": null
-          }
-        },
-        "stroke-width": 2
+        "description": "Tethered to the ground by a customizable\n          \"tail\""
       }
     },
     {
@@ -208,14 +181,7 @@
       },
       "properties": {
         "name": "Absolute",
-        "styleUrl": "#transPurpleLineGreenPoly",
-        "styleHash": "13259cc5",
-        "description": "Transparent purple line",
-        "stroke": "#ff00ff",
-        "stroke-opacity": 0.4980392156862745,
-        "stroke-width": 4,
-        "fill": "#00ff00",
-        "fill-opacity": 0.4980392156862745
+        "description": "Transparent purple line"
       }
     },
     {
@@ -282,14 +248,7 @@
       },
       "properties": {
         "name": "Absolute Extruded",
-        "styleUrl": "#yellowLineGreenPoly",
-        "styleHash": "6e76795f",
-        "description": "Transparent green wall with yellow outlines",
-        "stroke": "#ffff00",
-        "stroke-opacity": 0.4980392156862745,
-        "stroke-width": 4,
-        "fill": "#00ff00",
-        "fill-opacity": 0.4980392156862745
+        "description": "Transparent green wall with yellow outlines"
       }
     },
     {
@@ -356,12 +315,7 @@
       },
       "properties": {
         "name": "Relative",
-        "styleUrl": "#thickBlackLine",
-        "styleHash": "7991731e",
-        "description": "Black line (10 pixels wide), height tracks terrain",
-        "stroke": "#000000",
-        "stroke-opacity": 0.5294117647058824,
-        "stroke-width": 10
+        "description": "Black line (10 pixels wide), height tracks terrain"
       }
     },
     {
@@ -428,13 +382,7 @@
       },
       "properties": {
         "name": "Relative Extruded",
-        "styleUrl": "#redLineBluePoly",
-        "styleHash": "-2e91e0e2",
-        "description": "Opaque blue walls with red outline, height tracks terrain",
-        "stroke": "#ff0000",
-        "stroke-opacity": 1,
-        "fill": "#0000ff",
-        "fill-opacity": 1
+        "description": "Opaque blue walls with red outline, height tracks terrain"
       }
     },
     {
@@ -557,12 +505,7 @@
         ]
       },
       "properties": {
-        "name": "Building 40",
-        "styleUrl": "#transRedPoly",
-        "styleHash": "-5f504c87",
-        "stroke-width": 1.5,
-        "fill": "#ff0000",
-        "fill-opacity": 0.49019607843137253
+        "name": "Building 40"
       }
     },
     {
@@ -670,12 +613,7 @@
         ]
       },
       "properties": {
-        "name": "Building 41",
-        "styleUrl": "#transBluePoly",
-        "styleHash": "1f5a6e9c",
-        "stroke-width": 1.5,
-        "fill": "#0000ff",
-        "fill-opacity": 0.49019607843137253
+        "name": "Building 41"
       }
     },
     {
@@ -808,12 +746,7 @@
         ]
       },
       "properties": {
-        "name": "Building 42",
-        "styleUrl": "#transGreenPoly",
-        "styleHash": "-769146d5",
-        "stroke-width": 1.5,
-        "fill": "#00ff00",
-        "fill-opacity": 0.49019607843137253
+        "name": "Building 42"
       }
     },
     {
@@ -951,12 +884,7 @@
         ]
       },
       "properties": {
-        "name": "Building 43",
-        "styleUrl": "#transYellowPoly",
-        "styleHash": "6653ca36",
-        "stroke-width": 1.5,
-        "fill": "#ffff00",
-        "fill-opacity": 0.49019607843137253
+        "name": "Building 43"
       }
     },
     {
@@ -1069,12 +997,7 @@
         ]
       },
       "properties": {
-        "name": "Absolute",
-        "styleUrl": "#transBluePoly",
-        "styleHash": "1f5a6e9c",
-        "stroke-width": 1.5,
-        "fill": "#0000ff",
-        "fill-opacity": 0.49019607843137253
+        "name": "Absolute"
       }
     },
     {
@@ -1112,12 +1035,7 @@
         ]
       },
       "properties": {
-        "name": "Absolute Extruded",
-        "styleUrl": "#transRedPoly",
-        "styleHash": "-5f504c87",
-        "stroke-width": 1.5,
-        "fill": "#ff0000",
-        "fill-opacity": 0.49019607843137253
+        "name": "Absolute Extruded"
       }
     },
     {
@@ -1175,12 +1093,7 @@
         ]
       },
       "properties": {
-        "name": "Relative",
-        "styleUrl": "#transGreenPoly",
-        "styleHash": "-769146d5",
-        "stroke-width": 1.5,
-        "fill": "#00ff00",
-        "fill-opacity": 0.49019607843137253
+        "name": "Relative"
       }
     },
     {
@@ -1238,13 +1151,44 @@
         ]
       },
       "properties": {
-        "name": "Relative Extruded",
-        "styleUrl": "#transYellowPoly",
-        "styleHash": "6653ca36",
-        "stroke-width": 1.5,
-        "fill": "#ffff00",
-        "fill-opacity": 0.49019607843137253
+        "name": "Relative Extruded"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.60128369746704,
+              37.91904192681665
+            ],
+            [
+              15.35832653742206,
+              37.91904192681665
+            ],
+            [
+              15.35832653742206,
+              37.46543388598137
+            ],
+            [
+              14.60128369746704,
+              37.46543388598137
+            ],
+            [
+              14.60128369746704,
+              37.91904192681665
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Large-scale overlay on terrain",
+        "description": "Overlay shows Mount Etna erupting on July 13th, 2001.",
+        "image": "http://developers.google.com/kml/documentation/images/etna.jpg"
+      },
+      "isOverlay": true
     }
   ]
 }
