@@ -2,9 +2,10 @@
 setlocal enabledelayedexpansion
 
 REM @echo argument 1 = %~1
+set defaultdirectory=C:\temp\Mendocino Hazard KMZ Files
 
 if "%~1"=="" do(
-  set dirname=C:\temp\Mendocino Hazard KMZ Files
+  set dirname=%defaultdirectory%
 ) ELSE (
   set dirname=%~1
 )
