@@ -63,6 +63,8 @@ if(!options.input){
   throw 'Oops, no input specified'
 }
 
+// important to trim the path 
+options.input = options.input.trim()
 
 // console.log(2, path.dirname(getCaller()), __dirname, process.cwd());
 
@@ -77,13 +79,16 @@ if( !fs.existsSync(options.input) ){
   })
 }
 
-if( options.output && !fs.existsSync(options.output) ){
-  var bases = [path.dirname(getCaller()), __dirname, process.cwd()]
-  bases.forEach(function(base){
-    var resolved = path.resolve(base, options.output);
-    if(fs.existsSync( resolved ))
-      return options.output = resolved;
-  })
+if(options.output){
+  options.output = options.output.trim();
+  if(!fs.existsSync(options.output) ){
+    var bases = [path.dirname(getCaller()), __dirname, process.cwd()]
+    bases.forEach(function(base){
+      var resolved = path.resolve(base, options.output);
+      if(fs.existsSync( resolved ))
+        return options.output = resolved;
+    })
+  }
 }
 
 console.log('running kml-to-json with arguments:')

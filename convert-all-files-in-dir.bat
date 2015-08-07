@@ -12,9 +12,15 @@ if "%~1"=="" do(
 
 set findglob=%dirname%\*.km*
 
-@echo "searching for km(l|z)s in %dirname%"
 
-for /F "tokens=* delims=" %%f in ('dir "%findglob%" /b') do (
-  @echo. %dirname%\%%f
-  node kml-to-json "%dirname%\%%f"
+@echo "searching for km(l|z)s in %dirname%"
+@echo "%findglob%"
+
+for /F "tokens=* delims=" %%f in ('powershell -command "ls -Recurse \"%findglob%\" | select FullName " ') do (
+  @echo %%f
+  if exist %%f (
+    node kml-to-json "%%f"
+  )
+  REM @echo. %dirname%\%%f
+  REM node kml-to-json "%dirname%\%%f"
 )
