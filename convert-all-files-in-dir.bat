@@ -19,7 +19,7 @@ set findglob=%dirname%\*.km*
 for /F "tokens=* delims=" %%f in ('powershell -command "ls -Recurse \"%findglob%\" | select FullName " ') do (
   @echo %%f
   if exist %%f (
-    node kml-to-json "%%f"
+    node kml-to-json "%%f" --splitfolders
   )
   REM @echo. %dirname%\%%f
   REM node kml-to-json "%dirname%\%%f"

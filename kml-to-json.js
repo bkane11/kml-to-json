@@ -34,6 +34,13 @@ parser.addArgument(
     , help: 'Only keep features set as visible in the input kmlz'
   }
 );
+parser.addArgument(
+  [ '-sf', '--splitfolders' ],
+  {
+    action: 'storeTrue'
+    , help: 'Split kmlz into separate geojson by folders'
+  }
+);
 
 var args = parser.parseKnownArgs();
 var options = args[0];
