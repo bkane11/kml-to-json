@@ -1,4 +1,7 @@
 @echo off
+REM sample run command:
+REM C:\Projects\kml-to-json\convert-all-files-in-dir.bat C:\temp\ventura_JSON
+
 setlocal enabledelayedexpansion
 
 REM @echo argument 1 = %~1
@@ -19,8 +22,6 @@ set findglob=%dirname%\*.km*
 for /F "tokens=* delims=" %%f in ('powershell -command "ls -Recurse \"%findglob%\" | select FullName " ') do (
   @echo %%f
   if exist %%f (
-    node kml-to-json "%%f" --splitfolders
+    node "%~dp0kml-to-json" "%%f" --splitfolders
   )
-  REM @echo. %dirname%\%%f
-  REM node kml-to-json "%dirname%\%%f"
 )
